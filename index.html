@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Mathematics Shadowverse Rate</title>
+</head>
+<body>
+    <form name="draw">
+    <p><h1>Secret　mode</h1></p>
+    <p>指定された条件時にカードを引く確率を求めます。</p>
+    <div style="margin-bottom:10px"></div>
+    <img src="https://i.ytimg.com/vi/v4kAMFuRFG0/maxresdefault.jpg" alt="No Images" class="img"/></p>
+    <div style="margin-bottom:30px"></div>
+
+    <p>・引きたいカードの枚数
+    <input type="text" size="3" name="wanna" class="a" value="0"></p>
+    <p>・マリガン枚数　　　　
+        <select name="marigan">
+        <div class="0"><option>0</option></div>
+        <div class="1"><option>1</option></div>
+        <div class="2"><option>2</option></div>
+        <div class="3"><option>3</option></div>
+    </select></p>
+    <p>・残りのデッキ枚数　　
+    <input type="text" size="3" name="deck" class="a" value="0"></p>
+    <div style="margin-bottom:30px"></div>
+    <p><a href="#" class="square_btn" onclick="calculate()">計算する</a></p>
+    <div style="margin-bottom:30px"></div>
+    <p>1枚以上引ける確率は<input type="text" size="6" name="par" class="a" value="0">
+    ％です。</p>
+    </form>
+
+</body>
+</html>
